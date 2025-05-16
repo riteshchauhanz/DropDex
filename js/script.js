@@ -1,3 +1,4 @@
+
 document.addEventListener('DOMContentLoaded', function () {
       document.addEventListener('contextmenu', function (e) {
         e.preventDefault();
@@ -52,3 +53,4 @@ document.addEventListener('DOMContentLoaded', function () {
 
     // Start the animation
     startTypingCycle();
+    

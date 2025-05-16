@@ -1,2 +1,0 @@
-# DropDex
-a search engine
