@@ -4,19 +4,20 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>DropDex</title>
-    <link rel="icon" href="logo.png" type="image/png">
-    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="src/logo.png" type="image/png">
+    <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
 </head>
 <body>
+    <div class="main">
      <div>
-        <h1 class="logo"><img src="logo.png">ropDex</h1>
+        <h1 class="logo"><img src="src/logo.png">ropDex</h1>
     </div>
-    <div class="srch-box">
+    <form action="result.html" class="srch-box">
       <i class="fas fa-search"></i>
-      <input id="search" class="inpt" type="text"/>
-      <div class="btn"><i class="fa-solid fa-arrow-right"></i></div>
-    </div>
+      <input id="search" class="inpt" name="q" type="text" required/>
+      <button type="submit" class="btn"><i class="fa-solid fa-arrow-right"></i></button>
+    </form>
     <div class="spd"><p>Speed Search</p><i class="fa-solid fa-arrow-right"></i></div>
     <div class="tabs">
         <a class="tab" href="https://www.youtube.com/">
@@ -48,7 +49,7 @@
             <p>Whatsapp</p>
          </a>
          <a class="tab" href="https://www.xhamster19.com/">
-            <img class="xham" src="xhamster.png" alt="xhamster">
+            <img class="xham" src="src/xhamster.png" alt="xhamster">
             <p>XHamster</p>
          </a>
     </div>
@@ -57,6 +58,7 @@
             <p>&copy; Copyright Dropdex - All right reserved.</p>
         </div>
     </footer>
+    </div>
 </body>
-<script src="script.js"></script>
+<script src="js/script.js"></script>
 </html>
